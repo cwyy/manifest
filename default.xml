@@ -2,13 +2,14 @@
 <manifest>
 
     <remote  name="origin"
-        fetch="git@github.com:cwyy/manifest.git"
-        review="git@github.com:cwyy/manifest.git" />
+        fetch="https://github.com/cwyy/"
+        review="https://github.com/cwyy/"/>
 
     <default revision="master"
         remote="origin"
         sync-j="4" />
 
-    <project path="uboot" name="uboot" />
     <project path="unix_study" name="unix_study" />
+    <project path="uboot" name="uboot" />
+    <project path="manifest" name="manifest" />
 </manifest>
