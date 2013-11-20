@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote  name="origin"
+        fetch="git@github.com:cwyy/manifest.git"
+        review="git@github.com:cwyy/manifest.git" />
+
+    <default revision="master"
+        remote="origin"
+        sync-j="4" />
+
+    <project path="uboot" name="uboot" />
+    <project path="unix_study" name="unix_study" />
+</manifest>
